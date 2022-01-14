@@ -36,3 +36,9 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "solargraph", "~> 0.44.2", :group => :development
+
+gem "pry", "~> 0.14.0", :group => :development
+
+gem "pry-rails", "~> 0.3.9", :group => :development
